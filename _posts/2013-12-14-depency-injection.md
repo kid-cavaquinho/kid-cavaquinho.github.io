@@ -3,7 +3,7 @@ layout:     post
 title:      Dependency injection
 date:       2013-12-14 14:21:19
 summary:    "What is it and why should I care about it?"
-categories: patterns, software
+categories: patterns
 ---
 
 You might have heard of this term if you are into software development, a fellow called <a href="http://www.jamesshore.com/" target="_blank">James Shore</a> wrote something about it saying dependency injection (DI) "is a 25-dollar term for a 5-cent concept. That's not to say that it's a bad term..." and I agree with him. With some few words and simple pieces of code I will try to demonstrate the problems it tries to solve and the benefits that you can get from it. This concept is actually very simple and litelarally states an "injection" of a dependency from outside a class. 
