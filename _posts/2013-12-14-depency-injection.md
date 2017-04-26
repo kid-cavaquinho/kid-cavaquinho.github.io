@@ -34,10 +34,10 @@ class Sword
 class Samurai
 {
 	readonly Sword sword;
-    public Samurai() 
-    {
-        this.sword = new Sword();
-    }
+	public Samurai() 
+ 	{
+		this.sword = new Sword();
+	}
 
 	public void Attack(string target)
     {
@@ -51,7 +51,7 @@ class Samurai
 {% highlight csharp lineanchors %}
 class Program
 {
-    public static void Main() 
+	public static void Main() 
     {
         var warrior = new Samurai();
         warrior.Attack("the evildoers");
