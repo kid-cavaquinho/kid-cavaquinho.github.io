@@ -21,7 +21,7 @@ If you are still listening to Jimi Hendrix, great. If not, no worries, bare with
 {% highlight csharp lineanchors %}
 class Sword
 {
-    public void Hit(string target)
+	public void Hit(string target)
 	{
 		Console.WriteLine("Chopped {0} clean in half", target);
 	}
