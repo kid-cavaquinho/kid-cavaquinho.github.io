@@ -2,7 +2,7 @@
 title:       antao.tostring()
 email:       joao[dot]antao[at]protonmail[dot]com
 author:      João Antão
-description: "Software wrestling"
+description: "Software wrestling and all those yesterdays"
 baseurl:     ""
 url:         ""
 date_format: "%b %-d, %Y"
@@ -11,7 +11,7 @@ date_format: "%b %-d, %Y"
 google_verification:
 # Use either direct GA implementation or set up GTM account
 # - using both will skew your data (leave blank to not use at all)
-google_analytics:
+google_analytics: UA-47048865-1
 google_tag_manager:
 # Bing services
 bing_verification:
@@ -33,7 +33,7 @@ fb_page_id:
 
 # Disqus post comments
 # (leave blank to disable Disqus)
-disqus_shortname:
+disqus_shortname: antao
 
 # Facebook Comments plugin
 # (leave blank to disable Facebook Comments, otherwise set it to true)
@@ -110,7 +110,7 @@ permalink:    pretty
 paginate:     4
 sass:
   style: compressed
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-sitemap
 # https://github.com/jekyll/jekyll/issues/2938
