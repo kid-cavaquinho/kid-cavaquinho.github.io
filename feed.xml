@@ -12,6 +12,9 @@ layout: null
       <item>
         <title>{{ post.title | xml_escape }}</title>
         <dc:creator>{{ site.author | xml_escape }}</dc:creator>
+        {% if post.categories %}
+          <category>{{ post.categories | join: ' ' | xml_escape }}</category>
+        {% endif %}  
         <description>{{ post.content | xml_escape }}</description>
         <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
         <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
