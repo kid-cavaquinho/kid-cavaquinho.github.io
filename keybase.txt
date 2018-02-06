@@ -1,0 +1,88 @@
+==================================================================
+https://keybase.io/antao
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://antao.github.io
+  * I am antao (https://keybase.io/antao) on keybase.
+  * I have a public key with fingerprint 1B73 A67A B722 F2E2 9046  4098 F14D 0539 7FE4 A27C
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120eae4efd8525c8f579b5342149912886ec302b8638608513357b4ea27802023540a",
+      "fingerprint": "1b73a67ab722f2e290464098f14d05397fe4a27c",
+      "host": "keybase.io",
+      "key_id": "f14d05397fe4a27c",
+      "kid": "0101840bd55778f89ad4041453f4aff1e7941971c1dc2865211e95bfbf4c72d3d8bc0a",
+      "uid": "25b9b0d91df456b3f0030984bc473019",
+      "username": "antao"
+    },
+    "merkle_root": {
+      "ctime": 1517909886,
+      "hash_meta": "446208afa64bae2d6e1b81399f60ff55c94010d6a3f6cba4eea5794ae231d459",
+      "seqno": 2039974
+    },
+    "revoke": {
+      "sig_ids": [
+        "ae54829575e3c17fe7064c466d63008c51326da96992430b0f63b5d8a4f912610f"
+      ]
+    },
+    "service": {
+      "hostname": "antao.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1517909891,
+  "expire_in": 157680000,
+  "prev": "8133f7cda761b210c4b82196a4f54d9573b3e641ad95479803e3d1b313f40bdc",
+  "seqno": 34,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.76
+Comment: https://keybase.io/crypto
+
+yMQAAnicbVN7bBRFHL4qrbGAQAUklKS6EFrgbGd2Zmd3ziCIQk0MhgIaWmjOnd3Z
+dm3vwd1eay3HO8irPCyQWmpKi2kDhoCEApVXqNKqRV610EBEHpVUKAiEh7EQnasS
+jXH/2Z2d7/t+3+/7zXzd/2lXYtydqfF0QWftvLjWpqKIK6ekeEmpxAJmieQplQp4
+74sXmjzseAtsU/JIAMqA6xxzy9QUWTE0S1EpUxCWIaYUyppGuIGAzDSCNAI0BSKk
+qAxzXVY1IAMZKRjokluybH8eDwVDtt8RspCpSCeqzlRZtmQuU4AJBlSzIDaBgqhq
+cSwUDEHMD4RjDGGO6WGebgfEP7Hw9tr7H/wT3wBqGDBTUVRVszSqmxhgiBVkYd2y
+IFcphlSFBjQNWSOKDCGnCrOYhQ1VNpGpMaPXd6RXTlYYZcCk0LSwQhiyAEDCLmYG
+VhGANAYM85Bf93GB1v2OHpCibsnHQwWF3BsKBJxYsoZjx/ahAlUq2BoR3enhfK+P
+O7qgYUxkoOmWTjDTuWwSDpkGEaUWAZalKAbFoi2T6MgiBtMx57oYBhZQBE2sxEyE
++Vx/QPLIQLBULByEeFGggMeKh+08kVlY8syWdK5gTaaKqnBkQJGdCgg2MCEmQQBo
+hhiiTEydEkpljAADFkFMMTUdW2LkBAJLyo3GioWKbKNXPDakfzefnmc7+RH217SC
+oYATMAKFYjPfcYJhTywapyQYQxdz5v1bx8tsvylOiWAU8VDYDvhFVAL5n9QodEv8
+g6Ad4l47hlBUogHxxOrwIiEpIkOWapi6SiCTITAw02RIiXCvYFN0jRjiBENdfGOV
+agBxZEKGoDga4sAY/8SIsPCp5wlNEZ5fdyIhLkWbjs7p44pLdCXEPxW7Pq7EZwc+
+uVSblw34Y/LZZ5YPHf/+vMbibbNdsyqu1pSZKTtnf+yOGi0dNQNX83RX7vbsIeca
+shpWVp9O3701Y9eaHx+mJC90sg8c3Zywq2BlnG/xHSA3r0pKqK+dfrnfsu6z81d8
+En58kyQ8DL1Z+Wn3aPRV1eG3po5IW5hzv2tvV+sF98F+h+fkZtxJvqGtO34yI/PU
+t3ZTn8T2Rc3VIxZE6xPG7GzPST35+biqg22nzgRb6bTBr3Qv27qjrO3SnsjZbeVT
+2i68/fqt458NeOH8lvLc8+1LzFnlP1y8fqU6hUSrr9/2sXWLys3M0lvTnlvcM+nu
+o9o1JfX3rg0dX9hZ98X+NFd5/L6xPZ4bkZcaJww5fXnkseQjdeOl7elJA1/d+Nq5
+7ukTGoqju3+KuP0nN0x/8VDfwd9vClWMOfT48rSq9BF3PVdL72sjt77saxqeTWdk
+7b3m3B7izu5bui2h4VKdsrOnIfhGy54OfuTXUeNuDf/w+ZLUMR+901NJKRl+bGLF
+pn1fjrsgfbdn5KQzg35hg/Sxt3fkvLt0/ygG64oPHlIbfeczyYkDpTWtZUldq1fl
+czw5v9Ooz5i7tjq4pb3xykbeebMjs5+r7eeU35srl6e2PrjXfKDyQcuJpVdPnPFW
+xfcfvfbBzA01E1uG5RXP71if+GjsuayyDck3u3Z/w6LHV9Bw2JyZ9p79W6086WhR
+0owpw1KXLJpV0TC//OKfM+ID5Q==
+=MZ+c
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/antao
+
+==================================================================
