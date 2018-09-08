@@ -7,18 +7,18 @@ categories: python, programming languages
 ---
 
 Initially introduced by Barry Warsaw on <a href="https://www.python.org/dev/peps/pep-0202/" target="_blank">PEP-202</a>, comprehensions became part of the Python language in version 2.0 almost twenty years ago. This language feature enables a beautiful and convienient way to work with iterables. 
- 
-By using comprehensions the code is written in a more declarative and concise way. I think of it as an elegant way of Python's for implementing a well-known Mathematics notation: { x2 | x ∈ ℕ }.
- 
-### List comprehensions
+By using comprehensions the code is written in a more declarative and concise way. I think of it as an elegant way of Python's for implementing a well-known Mathematics notation: { x2 | x ∈ ℕ }
+
+Let's look at a code example. The lines of code bellow add the squared numbers from 0 to 10 to a list and print that same list. 
 {% highlight python lineanchors %}
 squares = []
-for x in range(10): # Values to iterate
-    squares.append(x ** 2) # Exponencial basic operator
+for x in range(10):
+    squares.append(x ** 2)
 print(squares) 
 {% endhighlight %}
- 
-The same functionality can be re-written using list comprehensions with the following syntax: [ <expression> for <element> in <iterable> ]
+
+### List comprehensions 
+The same functionality can be re-written using list comprehensions with the following syntax: [ expression for element in iterable ]
 {% highlight python lineanchors %}
 squares = [x ** 2 for x in range(10)]
 print(squares)
@@ -34,7 +34,7 @@ for x in range(10):
 print(squares)
 {% endhighlight %}
  
-The code above can be re-written with the following syntax: [ <expression> for <element> in <iterable> if <condition> ]
+The code above can be re-written with the following syntax: [ expression for element in iterable if condition ]
 {% highlight python lineanchors %}
 squares = [x ** 2 for x in range(10) if (x % 2 == 0)]
 print(squares)
@@ -62,10 +62,11 @@ They are similar to the examples above, the main difference is that they do not 
 
 {% highlight python lineanchors %}
 squares = (x**2 for x in range(10) if x % 2 == 0)
-print(squares)     # Outputs: <generator object <genexpr> at 0x0487EDB0>
+print(squares)
 for s in squares:
     print(s)
 {% endhighlight %}
+
 
 
 ### TLDR
