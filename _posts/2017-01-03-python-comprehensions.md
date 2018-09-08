@@ -19,14 +19,14 @@ print(squares)
 {% endhighlight %}
 
 ### List comprehensions 
-The same functionality can be re-written using list comprehensions with the following syntax: <b>[ expression for element in iterable ]</b>
+The same functionality can be re-written using list comprehensions with the following syntax: [ <b>expression</b> for <b>element</b> in <b>iterable</b> ]
 {% highlight python lineanchors %}
 squares = [x ** 2 for x in range(10)]
 print(squares)
 {% endhighlight %}
  
 #### Using conditionals statements with list comprehensions
-The example is simplified to explain the syntax. In this case applying conditional statements, like described bellow.
+The initial presented code is now modified bellow using a conditional statement that only adds the even square numbers to the list. 
 {% highlight python lineanchors %}
 squares = []
 for x in range(10):
@@ -35,7 +35,7 @@ for x in range(10):
 print(squares)
 {% endhighlight %}
  
-The code above can be re-written with the following syntax: <b>[ expression for element in iterable if condition ]</b>
+This can be re-written with the following syntax: [ <b>expression</b> for <b>element</b> in <b>iterable</b> if <b>condition</b> ]
 {% highlight python lineanchors %}
 squares = [x ** 2 for x in range(10) if (x % 2 == 0)]
 print(squares)
