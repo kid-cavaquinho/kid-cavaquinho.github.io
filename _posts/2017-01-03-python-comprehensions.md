@@ -3,7 +3,7 @@ layout:     post
 title:      Python comprehensions
 date:       2016-10-25 05:23:30
 summary:    "{ x2 | x ∈ ℕ }"
-categories: python, programming languages
+categories: python programming
 ---
 
 Initially introduced by Barry Warsaw on <a href="https://www.python.org/dev/peps/pep-0202/" target="_blank">PEP-202</a>, comprehensions became part of the Python language in version 2.0 almost twenty years ago. This language feature enables a beautiful and convienient way to work with iterables. 
