@@ -47,7 +47,7 @@ pipelines:
 ## Add environment variables
 I introduced environment variables for specifying NuGet feed url, key and project names in my project repository, as you can see on the image bellow. You can add the values needed and apply them to your configuration by opening your repository and select <b>Settings</b> -> <b>Pipelines</b> -> <b>Environment Variables</b>. 
 
-![Screenshot displaying the repository environment variables used](https://raw.githubusercontent.com/antao/antao.github.io/master/content/bitbucket-pipelines/environment_variables.png "Screenshot displaying the repository environment variables used")
+![Screenshot displaying the repository environment variables used in the yaml configuration file](https://raw.githubusercontent.com/antao/antao.github.io/master/content/bitbucket-pipelines/environment_variables.png "Screenshot displaying the repository environment variables used in the yaml configuration file")
 
 The BITBUCKET_CLONE_DIR it is the directory in which the repository was initially cloned and your artifacts will be produced. <b>There is no need to add this key to the environment variables</b>. 
 
