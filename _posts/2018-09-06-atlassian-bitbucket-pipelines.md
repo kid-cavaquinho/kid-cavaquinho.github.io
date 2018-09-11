@@ -3,7 +3,7 @@ layout:     post
 title:      Bitbucket Pipelines and .NET Core 
 date:       2018-09-06 18:41:00
 summary:    "Automating your NuGet packages from test to production"
-categories: cd ci dotnet nuget
+categories: continuous-delivery continuous-integration dotnet nuget
 ---
 
 I used to remember that time when implementing continuous delivery was not an easy task. Recently, I have found <a href="https://bitbucket.org/product/features/pipelines" target="_blank">Bitbucket Pipelines</a> an integrated CI/CD product of Atlassian. The system promises and states at their official website a "trivial configuration to set up, automating your code from test to production", they are not lying. 
