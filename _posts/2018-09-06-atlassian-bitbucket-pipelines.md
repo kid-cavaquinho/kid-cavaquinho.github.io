@@ -47,22 +47,22 @@ pipelines:
 ## Add environment variables
 I introduced environment variables for specifying NuGet feed url, key and project names in my project repository, as you can see on the image bellow. You can add the values needed and apply them to your configuration by opening your repository and select <b>Settings</b> -> <b>Pipelines</b> -> <b>Environment Variables</b>. 
 
-![alt text](https://raw.githubusercontent.com/antao/antao.github.io/master/content/bitbucket-pipelines/environment_variables.png "Screenshot displaying my repository environment variables ")
+![Screenshot displaying my repository environment variables](https://raw.githubusercontent.com/antao/antao.github.io/master/content/bitbucket-pipelines/environment_variables.png "Screenshot displaying my repository environment variables")
 
 The BITBUCKET_CLONE_DIR it is the directory in which the repository was initially cloned and your artifacts will be produced. <b>There is no need to add this key to the environment variables</b>. 
 
 ## Bitbucket Pipelines in action
 Create your feature branch, add your awesome commits and push them. Once that is done, Pipelines should start automatically creating your build as you can see on the screenshot bellow.
 
-![alt text](https://raw.githubusercontent.com/antao/antao.github.io/master/content/bitbucket-pipelines/pipelines_default.png "Screenshot of Bitbucket Pipelines restoring, building and testing the code automatically steps")
+![Screenshot of Bitbucket Pipelines restoring, building and testing the code automatically steps](https://raw.githubusercontent.com/antao/antao.github.io/master/content/bitbucket-pipelines/pipelines_default.png "Screenshot of Bitbucket Pipelines restoring, building and testing the code automatically steps")
 
 Once you merge this branch with master the pack and push commands will be executed automatically. The example library is a light solution, in the screenshot you can see it takes about 17 seconds to execute this step. Because I did not specified a version in the pack command, the package is created with the version number defined in the configuration of your `.csproj` file. The push command will send the generated package to a NuGet feed, in this case I have used <a href="https://www.myget.org/" target="_blank">MyGet</a>.
 
-![alt text](https://raw.githubusercontent.com/antao/antao.github.io/master/content/bitbucket-pipelines/pipelines_master.png "Screenshot of Bitbucket Pipelines packing and pushing the code automatically steps")
+![Screenshot of Bitbucket Pipelines packing and pushing the code automatically steps](https://raw.githubusercontent.com/antao/antao.github.io/master/content/bitbucket-pipelines/pipelines_master.png "Screenshot of Bitbucket Pipelines packing and pushing the code automatically steps")
 
 I specified deployment towards production in the master branch build step. This will enable a visual indication of what is currently shipped in Deployments tab.
 
-![alt text](https://raw.githubusercontent.com/antao/antao.github.io/master/content/bitbucket-pipelines/deployment.png "Screenshot of deployement tab of Bitbucket Pipelines showing release number #16")
+![Screenshot of deployement tab of Bitbucket Pipelines showing release number #16](https://raw.githubusercontent.com/antao/antao.github.io/master/content/bitbucket-pipelines/deployment.png "Screenshot of deployement tab of Bitbucket Pipelines showing release number #16")
 
 ## Conclusion
 Bitbucket Pipelines provides a <b>easy to setup</b>, <b>flexible</b> and <b>integrated</b> solution for CI/CD in the Atlassian ecosystem. You can use it in the cloud or on premises with the following <a href="https://bitbucket.org/product/pricing" target="_blank">pricing</a>. It does contains some <a href="https://confluence.atlassian.com/bitbucket/limitations-of-bitbucket-pipelines-827106051.html" target="_blank">limitations</a> you should be aware of. Enables integration with AWS, Google Clould, Kubernetes or Azure and supports repositories in many more programming languages. I've found great <a href="https://confluence.atlassian.com/bitbucket/configuring-your-pipeline-872013574.html" target="_blank">documentation</a> support provided while writing this post.
