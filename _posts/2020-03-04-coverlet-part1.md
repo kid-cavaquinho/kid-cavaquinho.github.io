@@ -8,7 +8,7 @@ image:      '/images/posts/coverlet/pcoverage.png'
 ---
 
 Measuring the code coverage of your test suite is a key metric of any software engineering project and tell us how much of the source is tested.
-While there are several tools to achieve coverage measurements in different languages or frameworks in this post I will focus on .NET and on a open source, cross platform package named [Coverlet](https://github.com/tonerdo/coverlet "Coverlet source repository"). This amazing and free package works with .NET Framework on Windows environments and .NET Core on all supported platforms, such as multiple distributions of Linux or OS X.
+While there are several tools to achieve coverage measurements in different languages or frameworks in this post I will focus on the .NET Framework and on a open source, cross platform package named [Coverlet](https://github.com/tonerdo/coverlet "Coverlet source repository").
 
 ### Coverage criteria
 
