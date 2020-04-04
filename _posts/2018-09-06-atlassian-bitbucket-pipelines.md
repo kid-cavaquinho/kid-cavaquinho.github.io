@@ -49,7 +49,7 @@ pipelines:
 
 I introduced environment variables for specifying NuGet feed url, key and project names in my project repository, as you can see on the image below. You can add the values needed and apply them to your configuration by opening your repository and select **Settings** -> **Pipelines** -> **Environment Variables**.
 
-![Screenshot displaying the repository environment variables used in the yaml configuration file](https://raw.githubusercontent.com/antao/antao.github.io/master/content/bitbucket-pipelines/environment_variables.png "Screenshot displaying the repository environment variables used in the yaml configuration file")
+![Screenshot displaying the repository environment variables used in the yaml configuration file](/images/posts/bitbucket-pipelines/environment_variables.png "Screenshot displaying the repository environment variables used in the yaml configuration file")
 
 The BITBUCKET_CLONE_DIR it is the directory in which the repository was initially cloned and your artifacts will be produced. **There is no need to add this key to the environment variables**.
 
@@ -57,15 +57,15 @@ The BITBUCKET_CLONE_DIR it is the directory in which the repository was initiall
 
 Create your feature branch, add your awesome commits and push them. Once that is done, Pipelines should start automatically creating your build as you can see on the screenshot below.
 
-![Screenshot of Bitbucket Pipelines restoring, building and testing the code automatic steps](https://raw.githubusercontent.com/antao/antao.github.io/master/content/bitbucket-pipelines/pipelines_default.png "Screenshot of Bitbucket Pipelines restoring, building and testing the code automatically steps")
+![Screenshot of Bitbucket Pipelines restoring, building and testing the code automatic steps](/images/posts/bitbucket-pipelines/pipelines_default.png "Screenshot of Bitbucket Pipelines restoring, building and testing the code automatically steps")
 
 Once you merge this branch with master the pack and push commands will be executed automatically. The example library is a light solution, in the screenshot you can see it takes about 17 seconds to execute this step. Because I did not specified a version in the pack command, the package is created with the version number defined in the configuration of your `.csproj` file. The push command will send the generated package to a NuGet feed, in this case I have used [MyGet](https://www.myget.org/).
 
-![Screenshot of Bitbucket Pipelines packing and pushing the code automatic steps](https://raw.githubusercontent.com/antao/antao.github.io/master/content/bitbucket-pipelines/pipelines_master.png "Screenshot of Bitbucket Pipelines packing and pushing the code automatically steps")
+![Screenshot of Bitbucket Pipelines packing and pushing the code automatic steps](/images/posts/bitbucket-pipelines/pipelines_master.png "Screenshot of Bitbucket Pipelines packing and pushing the code automatically steps")
 
 I specified deployment towards production in the master branch build step. This will enable a visual indication of what is currently shipped in Deployments tab.
 
-![Screenshot of deployement tab of Bitbucket Pipelines showing release number #16](https://raw.githubusercontent.com/antao/antao.github.io/master/content/bitbucket-pipelines/deployment.png "Screenshot of deployment tab of Bitbucket Pipelines showing release number #16")
+![Screenshot of deployement tab of Bitbucket Pipelines showing release number #16](/images/posts/bitbucket-pipelines/deployment.png "Screenshot of deployment tab of Bitbucket Pipelines showing release number #16")
 
 ## Conclusion
 
