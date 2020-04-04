@@ -70,9 +70,9 @@ You can now collect your coverage with the following command and parameters:
 
 It depends, right? It's important to understant that **good coverage does not mean good tests** and aiming for a 100% coverage might turn to be costly. I do not believe in a code coverage silver bullet; you should always discuss and identity together with your team what are the critical parts of your application, start with making those robust and aim for a goal together. Use the reports wisely and strive for your desired coverage, this might be an interesting and challenging goal to achieve.
 
-## Generated reports
+## Coverage reports
 
-In addition, coverage reports are generated in several formats, such as ```json```, ```lcov```, ```opencover```, ```teamcity``` or others. You can consume them later on or even hook this calculation to your CI/CD pipelines or a static code analysis tool.
+In addition, reports are generated in several formats, such as ```json```, ```lcov```, ```opencover```, ```teamcity``` or others. You can consume them later on even hook this calculation to your CI/CD pipelines or a static code analysis tool.
 
 ## TLDR
 
