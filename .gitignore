@@ -1,5 +1,7 @@
 _site
 .sass-cache
+.jekyll-cache
+_drafts
 .DS_Store
 .jekyll-metadata
 
@@ -7,3 +9,5 @@ _site
 _config.gh-pages.yml
 
 Gemfile.lock
+.ruby-version
+.editorconfig
