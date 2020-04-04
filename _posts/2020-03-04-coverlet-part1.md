@@ -52,8 +52,6 @@ You can now collect your coverage with the following command and parameter:
 
 The results will be published by default to a ```json``` file in the root folder of your test project and also displayed in the command terminal. Read further about advanced MSBuild configurations [here](https://github.com/tonerdo/coverlet/blob/master/Documentation/MSBuildIntegration.md).
 
-[Insert Image Here]
-
 #### .NET Global tool
 
 Install [coverlet.console](https://www.nuget.org/packages/coverlet.console/ "Coverlet console package nuget.org") globally and use the following command:
