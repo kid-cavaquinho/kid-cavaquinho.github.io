@@ -31,16 +31,16 @@ The trail starts in the center of the town, a granite obelisk marks the spot. I 
 
 ## Day 2 - Carbeth to Drymen
 
-![Carbeth to Drymen](/images/posts/whw/carbeth-to-drymen.jpg "Carbeth to Drymen")
+![Carbeth to Drymen](/images/posts/whw/carbeth-to-drymen.png "Carbeth to Drymen")
 The elevation is still quite low and the path is still quite easy to walk as can be seen in the picture.
 
 ## Day 3 - Drymen to Rowardennan
 
-![Drymen to Rowardennan](/images/posts/whw/drymen-to-rowardennan.JPG "Drymen to Rowardennan")
+![Drymen to Rowardennan](/images/posts/whw/drymen-to-rowardennan.png "Drymen to Rowardennan")
 
 In the picture above you can see Loch Lomond and the [Conic Hill](https://en.wikipedia.org/wiki/Conic_Hill). The Conic Hill separates the lowlands from the highlands. From the highest point, the path descents quite steeply to the beautiful village of Balmaha were I stop to lunch by the pier, nearby there is a statue of [Tom Weir](https://en.wikipedia.org/wiki/Tom_Weir).
 
-![Tom Weir](/images/posts/whw/tom-weir.jpg "Tom Weir")
+![Tom Weir](/images/posts/whw/tom-weir.png "Tom Weir")
 
 Balmaha is the last place I will find an automated banking machine until reaching Kinlochleven, so I take some extra money with me. The path follows along Loch Lomond, which is quite beautiful.
 
@@ -48,25 +48,25 @@ At this point because it is summer might be a good time to get your repellent sp
 
 The rain felt hard on me during the day and my legs start to feel tired, luckily when I arrived to Rowardennan the sun shined again and I could enjoy this view. There are some restaurants, a campsite and hotels in Rowardennan.
 
-![Rowardennan](/images/posts/whw/rowardennan.JPG "Rowardennan")
+![Rowardennan](/images/posts/whw/rowardennan.png "Rowardennan")
 
 ## Day 4 - Rowardennan to Inverarnan
 
 The path goes along Loch Lomond and it is slightly harder than in the previous days, the elevation is about 500 meters. It will take me about five hours to walk 22km until I reach Inverarnan. After this long walk, I stop in the [Beinglas campsite](https://www.beinglascampsite.co.uk/) there I found a shop and restaurant/bar with very friendly staff. Nearby, there is a hotel with over three hundred years of history called [Drover's Inn](https://www.droversinn.co.uk/).
 
-![Rowardennan to Inverarnan](/images/posts/whw/rowardennan-to-inverarnan.JPG "Rowardennan to Inverarnan")
+![Rowardennan to Inverarnan](/images/posts/whw/rowardennan-to-inverarnan.png "Rowardennan to Inverarnan")
 
 ## Day 5 - Inverarnan to Tyndrum
 
 From Inverarnan on the path becomes more mountainous, the landscape is now quite different from the previous days. The weather is now quite foggy and these are the Highlands I had imagined: __mountains surrounded in air of mystery__. In Tyndrum, there is a small supermarket, a few restaurants and a campsite.
 
-![Inverarnan to Tyndrum](/images/posts/whw/inverarnan-to-tyndrum.JPG "Inverarnan to Tyndrum")
+![Inverarnan to Tyndrum](/images/posts/whw/inverarnan-to-tyndrum.png "Inverarnan to Tyndrum")
 
 ## Day 6 - Tyndrum to Bridge of Orchy
 
 Today is a shorter distance day, just 11km with a small elevation from Tyndrum to Bridge of Orchy. I have time today to rest well before the last days. In this village, there is a restaurant in the local hotel.
 
-![Tyndrum to Bridge of Orchy](/images/posts/whw/tyndrum.jpg "Tyndrum to Bridge of Orchy")
+![Tyndrum to Bridge of Orchy](/images/posts/whw/tyndrum.png "Tyndrum to Bridge of Orchy")
 
 ## Day 7 - Bridge of Orchy to Kingshouse
 
@@ -78,7 +78,7 @@ From Kingshouse I continue along old military roads, at a certain point I will r
 
 ## Day 9 - Kinlochleven to Fort William
 
-![Kinlochleven to Fort William](/images/posts/whw/kinlochleven.jpg "Kinlochleven to Fort William")
+![Kinlochleven to Fort William](/images/posts/whw/kinlochleven.png "Kinlochleven to Fort William")
 
 This is one of the hardest days, you will pass through some isolated areas along a scenic route. It is quite impressive to sight [Ben Nevis](https://en.wikipedia.org/wiki/Ben_Nevis) for the first time. The walking trail ends in the town of Fort William.
 
