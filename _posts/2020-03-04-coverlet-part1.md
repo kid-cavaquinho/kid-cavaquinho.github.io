@@ -24,53 +24,23 @@ These metrics are calculated in percentage and average values, in my humble opin
 
 An important aspect of Coverlet is that it can be used within three different drivers:
 
-- VSTest engine integration
-- MSBuild task integration
-- .NET global tool
+- **VSTest engine integration**
+- **MSBuild task integration**
+- **.NET global tool**
 
-#### VSTest engine integration
-
-Install [coverlet.collector](https://www.nuget.org/packages/coverlet.collector "Coverlet Collector package nuget.org") package in your test projects with the package manager console or in the command line with the following:
-
-```dotnet add package coverlet.collector```
-
-In case you did not notice the latest .NET Core test templates, such as xUnit or MSTest contain this package already instaled by default, run it with the following command:
+Read more about the different drivers and how to use them on the github [page](https://github.com/tonerdo/coverlet). My preferred way of measuring coverage with Coverlet is currently with the VSTest engine integration, this relies in the [coverlet.collector](https://www.nuget.org/packages/coverlet.collector/) package. In case you did not notice the latest .NET Core test templates, such as xUnit or MSTest already contain this package installed by default, run it with the following command:
 
 ```dotnet test --collect:"XPlat Code Coverage"```
 
-This will generate a [cobertura](https://cobertura.github.io/cobertura/) file report by default containing coverage results and will be published to a directory ```TestResults``` under your test project. Read further about advanced VSTest configurations [here](https://github.com/tonerdo/coverlet/blob/master/Documentation/VSTestIntegration.md).
+Running the command above will generate a cobertura file report by default containing coverage results and will be published to a directory ```TestResults``` under your test project. Read further about advanced VSTest configurations [here](https://github.com/tonerdo/coverlet/blob/master/Documentation/VSTestIntegration.md).
 
-#### MSBuild task integration
+## Coverage percentage
 
-Install [coverlet.msbuild](https://www.nuget.org/packages/coverlet.msbuild "Coverlet MSBuild package nuget.org") package in your test projects with the package manager console or in the command line with the following:
-
-```dotnet add package coverlet.msbuild```
-
-You can now collect your coverage with the following command and parameter:
-
-```dotnet test /p:CollectCoverage=true```
-
-The results will be published by default to a ```json``` file in the root folder of your test project and also displayed in the command terminal. Read further about advanced MSBuild configurations [here](https://github.com/tonerdo/coverlet/blob/master/Documentation/MSBuildIntegration.md).
-
-#### .NET Global tool
-
-Install [coverlet.console](https://www.nuget.org/packages/coverlet.console/ "Coverlet console package nuget.org") globally and use the following command:
-
-```dotnet tool install --global coverlet.console```
-
-You can now collect your coverage with the following command and parameters:
-
-```coverlet /path/to/test-assembly.dll --target "dotnet" --targetargs "test /path/to/test-project --no-build"```
-
- Read further about advanced global tool configurations [here](https://github.com/tonerdo/coverlet/blob/master/Documentation/GlobalTool.md).
-
-## What percentage should you aim for
-
-It depends, right? It's important to understant that **good coverage does not mean good tests** and aiming for a 100% coverage might turn to be costly. I do not believe in a code coverage silver bullet; you should always discuss and identity together with your team what are the critical parts of your application, start with making those robust and aim for a goal together. Use the reports wisely and strive for your desired coverage, this might be an interesting and challenging goal to achieve.
+What should be the coverage percentage you should be aiming for? It depends, right? It's important to understant that **good coverage does not mean good tests** and aiming for a 100% coverage might turn to be costly. I do not believe in a code coverage silver bullet; you should always discuss and identity together with your team what are the critical parts of your application, start with making those robust and aim for a goal together. Use the reports wisely and strive for your desired coverage, this might be an interesting and challenging goal to achieve.
 
 ## Coverage reports
 
-In addition, reports are generated in several formats, such as ```json```, ```lcov```, ```opencover```, ```teamcity``` or others. You can consume them later on even hook this calculation to your CI/CD pipelines or a static code analysis tool.
+Reports can be generated in several formats, such as ```json```, ```lcov```, ```opencover```, ```teamcity``` or others. You can consume them later on even hook this calculation to your CI/CD pipelines or a static code analysis tool.
 
 ## TLDR
 
