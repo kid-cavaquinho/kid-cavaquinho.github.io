@@ -31,16 +31,16 @@ The trail starts in the center of the town, a granite obelisk marks the spot. I 
 
 ## Day 2 - Carbeth to Drymen
 
-![alt text](/images/posts/whw/carbeth-to-drymen.JPG "Carbeth to Drymen")
+![Carbeth to Drymen](/images/posts/whw/carbeth-to-drymen.jpg "Carbeth to Drymen")
 The elevation is still quite low and the path is still quite easy to walk as can be seen in the picture.
 
 ## Day 3 - Drymen to Rowardennan
 
-![alt text](/images/posts/whw/drymen-to-rowardennan.JPG "Drymen to Rowardennan")
+![Drymen to Rowardennan](/images/posts/whw/drymen-to-rowardennan.JPG "Drymen to Rowardennan")
 
 In the picture above you can see Loch Lomond and the [Conic Hill](https://en.wikipedia.org/wiki/Conic_Hill). The Conic Hill separates the lowlands from the highlands. From the highest point, the path descents quite steeply to the beautiful village of Balmaha were I stop to lunch by the pier, nearby there is a statue of [Tom Weir](https://en.wikipedia.org/wiki/Tom_Weir).
 
-![alt text](/images/posts/whw/tom-weir.JPG "Tom Weir")
+![Tom Weir](/images/posts/whw/tom-weir.jpg "Tom Weir")
 
 Balmaha is the last place I will find an automated banking machine until reaching Kinlochleven, so I take some extra money with me. The path follows along Loch Lomond, which is quite beautiful.
 
@@ -66,7 +66,7 @@ From Inverarnan on the path becomes more mountainous, the landscape is now quite
 
 Today is a shorter distance day, just 11km with a small elevation from Tyndrum to Bridge of Orchy. I have time today to rest well before the last days. In this village, there is a restaurant in the local hotel.
 
-![Tyndrum to Bridge of Orchy](/images/posts/whw/tyndrum.JPG "Tyndrum to Bridge of Orchy")
+![Tyndrum to Bridge of Orchy](/images/posts/whw/tyndrum.jpg "Tyndrum to Bridge of Orchy")
 
 ## Day 7 - Bridge of Orchy to Kingshouse
 
@@ -78,7 +78,7 @@ From Kingshouse I continue along old military roads, at a certain point I will r
 
 ## Day 9 - Kinlochleven to Fort William
 
-![Kinlochleven to Fort William](/images/posts/whw/kinlochleven.JPG "Kinlochleven to Fort William")
+![Kinlochleven to Fort William](/images/posts/whw/kinlochleven.jpg "Kinlochleven to Fort William")
 
 This is one of the hardest days, you will pass through some isolated areas along a scenic route. It is quite impressive to sight [Ben Nevis](https://en.wikipedia.org/wiki/Ben_Nevis) for the first time. The walking trail ends in the town of Fort William.
 
