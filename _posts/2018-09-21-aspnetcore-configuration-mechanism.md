@@ -3,7 +3,7 @@ layout:     post
 title:      Using ASP.NET Core configuration mechanism with valid objects 
 date:       2018-09-21 10:42:00
 summary:    "Use Microsoft.Extensions.Configuration effectively"
-categories: aspnetcore dotnetcore options-pattern validation configuration
+categories: options-pattern validation
 ---
 
 Applications often demand configuration values, those can either be connection strings, logging level settings or specific tokens, for example. While developing with .NET Core framework the configuration mechanism is based at [__Microsoft.Extensions.Configuration__](https://github.com/aspnet/Configuration). This is a replacement for ```System.Configuration``` namespace. In this post, I will try to explain how to use the first effectively.
