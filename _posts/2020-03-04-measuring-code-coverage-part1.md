@@ -4,7 +4,7 @@ title:      Measuring code coverage in .NET Core (part I)
 date:       2020-04-04 10:42:00
 summary:    With a little (and great) help of Coverlet
 categories: code-coverage testing dotnet-core
-image:      '/images/posts/coverlet/pcoverage.png'
+image:      '/images/posts/measuring-code-coverage/pcoverage.png'
 ---
 
 Measuring the code coverage of your test suite is a key metric of any software engineering project and tell us how much of the source is tested.
@@ -40,7 +40,7 @@ What should be the coverage percentage you should be aiming for? It depends, rig
 
 ## Coverage reports
 
-Reports can be generated in several formats, such as ```json```, ```lcov```, ```opencover```, ```teamcity``` or others. You can consume them later on even hook this calculation to your CI/CD pipelines or a static code analysis tool.
+Reports can be generated in several formats, such as ```json```, ```lcov```, ```opencover```, ```teamcity``` or others. You can analyse them later, hook this report generation steps to your CI/CD pipeline or publish them to report evaluation tool.
 
 ## TLDR
 
