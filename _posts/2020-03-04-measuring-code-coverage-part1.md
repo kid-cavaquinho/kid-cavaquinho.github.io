@@ -36,7 +36,7 @@ Running the command above will generate a cobertura file report by default conta
 
 ## Coverage percentage
 
-What should be the coverage percentage you should be aiming for? It depends, right? It's important to understant that **good coverage does not mean good tests** and aiming for a 100% coverage might turn to be costly. I do not believe in a code coverage silver bullet; you should always discuss and identity together with your team what are the critical parts of your application, start with making those robust and aim for a goal together. Use the reports wisely and strive for your desired coverage, this might be an interesting and challenging goal to achieve.
+What should be the coverage percentage you should be aiming for? It depends, right? It's important to understand that **good coverage does not mean good tests** and aiming for a 100% coverage might turn to be costly. I do not believe in a code coverage silver bullet; you should always discuss and identity together with your team what are the critical parts of your application, start with making those robust and aim for a goal together. Use the reports wisely and strive for your desired coverage, this might be an interesting and challenging goal to achieve.
 
 ## Coverage reports
 
