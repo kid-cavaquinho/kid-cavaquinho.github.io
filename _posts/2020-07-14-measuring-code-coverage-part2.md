@@ -15,15 +15,15 @@ Generate code coverage reports and be able to comfortably and easily understand 
 
 As explained in the previous post achieving code coverage reports in .NET core is possible with the responsibility of the open source, cross platform package [Coverlet](https://github.com/tonerdo/coverlet "Coverlet source repository").
 
-{% highlight shell lineanchors %}
+~~~ shell
 dotnet test
-    --no-build
-    --logger "trx;LogFileName=TestResults.trx"
-    --results-directory ./BuildReports/UnitTests/
-    /p:CollectCoverage=true
-    /p:CoverletOutput=./BuildReports/Coverage/
-    /p:CoverletOutputFormat=cobertura
-{% endhighlight %}
+--no-build
+--logger "trx;LogFileName=TestResults.trx"
+--results-directory ./BuildReports/UnitTests/
+/p:CollectCoverage=true
+/p:CoverletOutput=./BuildReports/Coverage/
+/p:CoverletOutputFormat=cobertura
+~~~
 
 The command above will create the ```TestResults.trx``` file using the Visual Studio logger and put those results in the defined results directory folder. Coverlet will make sure the **coverage test data is collected, create the desired coverage folder and generate the data report in the ```cobertura``` specified format**.
 
@@ -35,12 +35,12 @@ Publishing your reports in a continuous integration flow is usually (depending o
 
 The previously generated data report should be easily interpreted, to achieve this I will use another great open-source tool: [ReportGenerator](https://github.com/danielpalme/ReportGenerator)
 
-{% highlight shell lineanchors %}
+~~~ shell
 dotnet reportgenerator 
-    -reports:/BuildReports/Coverage/coverage.cobertura.xml
-    -targetdir:BuildReports/Coverage/
-    -reporttypes:HTML;HTMLSummary
-{% endhighlight %}
+-reports:/BuildReports/Coverage/coverage.cobertura.xml 
+-targetdir:BuildReports/Coverage/ 
+-reporttypes:HTML;HTMLSummary
+~~~
 
 The command above will create a HTML report with a summary in human readable information based on the foregoing ```cobertura``` data file. The report files are generated in the defined ```targetdir``` folder. Report generator tool supports many input/output formats and report types. 
 
