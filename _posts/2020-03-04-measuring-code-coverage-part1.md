@@ -4,7 +4,7 @@ title:      Measuring code coverage in .NET Core (part I)
 date:       2020-04-04 10:42:00
 summary:    With a little (and great) help of Coverlet
 categories: code-coverage testing dotnet-core
-image:      '/images/posts/measuring-code-coverage/pcoverage.png'
+image:      '/images/posts/measuring-code-coverage/coverage.png'
 ---
 
 Measuring the code coverage of your test suite is a key metric of any software engineering project and tell us how much of the source is tested.
