@@ -4,7 +4,7 @@ title:      Measuring code coverage in .NET Core (part I)
 date:       2020-04-04 10:42:00
 summary:    With a little (and great) help of Coverlet
 categories: code-coverage testing dotnet-core
-image:      '/images/posts/coverlet/pcoverage.png'
+image:      '/images/posts/measuring-code-coverage/coverage.png'
 ---
 
 Measuring the code coverage of your test suite is a key metric of any software engineering project and tell us how much of the source is tested.
@@ -36,11 +36,11 @@ Running the command above will generate a cobertura file report by default conta
 
 ## Coverage percentage
 
-What should be the coverage percentage you should be aiming for? It depends, right? It's important to understant that **good coverage does not mean good tests** and aiming for a 100% coverage might turn to be costly. I do not believe in a code coverage silver bullet; you should always discuss and identity together with your team what are the critical parts of your application, start with making those robust and aim for a goal together. Use the reports wisely and strive for your desired coverage, this might be an interesting and challenging goal to achieve.
+What should be the coverage percentage you should be aiming for? It depends, right? It's important to understand that **good coverage does not mean good tests** and aiming for a 100% coverage might turn to be costly. I do not believe in a code coverage silver bullet; you should always discuss and identity together with your team what are the critical parts of your application, start with making those robust and aim for a goal together. Use the reports wisely and strive for your desired coverage, this might be an interesting and challenging goal to achieve.
 
 ## Coverage reports
 
-Reports can be generated in several formats, such as ```json```, ```lcov```, ```opencover```, ```teamcity``` or others. You can consume them later on even hook this calculation to your CI/CD pipelines or a static code analysis tool.
+Reports can be generated in several formats, such as ```json```, ```lcov```, ```opencover```, ```teamcity``` or others. You can analyse them later, hook this report generation steps to your CI/CD pipeline or publish them to report evaluation tool.
 
 ## TLDR
 
