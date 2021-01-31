@@ -42,6 +42,7 @@ It can also be easily extended, here is a JSON example below:
 {% highlight json lineanchors %}
 {
   "Title": "Bad Request",
+  "Type": "https://tools.ietf.org/html/rfc7231#section-6.5.1",
   "Status": 400,
   "Detail": "The request parameters are not valid, see ValidationErrors for details",
   "TraceId": "0HM65C5IQ1B43:00000002",
