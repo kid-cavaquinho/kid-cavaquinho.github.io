@@ -6,15 +6,15 @@ summary:    "What is it and why should I care about it?"
 categories: patterns
 ---
 
-What is it and why should I care about it? You might have heard of this term if you are into software development, a fellow called [James Shore](http://www.jamesshore.com/) wrote something about it saying dependency injection (DI) "is a 25-dollar term for a 5-cent concept. That's not to say that it's a bad term..." and I agree with him. With some few words and simple pieces of code I will try to demonstrate the problems it tries to solve and the benefits that you can get from it. This concept is actually very simple and litelarally states an "injection" of a dependency from outside a class.
-
+What is it? Why should I care about it? You might have heard the term dependency injection (DI) if you are into software development, a fellow called [James Shore](http://www.jamesshore.com/)
+wrote something about it: "is a 25-dollar term for a 5-cent concept. That's not to say that it's a bad term..." and I agree with him. With a few words and simple pieces of code, I will try to demonstrate the problems it tries to solve and the benefits that you can get from it. This concept is simple and states an "injection" of a dependency from outside a class.
 ### Wait, so what is a dependency?
 
-Let's imagine a musician, [Jimi Hendrix](http://www.youtube.com/watch?v=LvmKlZGTTU4) came out of my mind now. To perform, your musician needs an instrument. That's a dependency.
+Let's imagine a musician, [Jimi Hendrix](http://www.youtube.com/watch?v=LvmKlZGTTU4) came to my mind now. To perform, your musician needs an instrument. That's a dependency.
 
 ### Show me the code
 
-If you are still listening to Jimi Hendrix, great. If not, no worries, bare with me for the next simple lines of code. The fellows of [Ninject](http://www.ninject.org/), an IoC container (we will get into IoC containers later on another post.) got this simple example written in C#:
+If you are still listening to Jimi Hendrix, great. If not, no worries, bare with me for the next simple lines of code. The fellows of [Ninject](http://www.ninject.org/), an IoC container (we will get into IoC containers later in another post.) got this simple example written in C#:
 
 _Let's say you're writing the next blockbuster game, where noble warriors do battle for great glory. First, we'll need a weapon suitable for arming our warriors._ (The weapon is the dependency on this example.)
 
@@ -149,8 +149,8 @@ class Program
 
 _This is called dependency injection by hand, because each time you want to create a `Samurai`, you must first create some implementation of `IWeapon` and then pass it to the constructor of `Samurai`. Now that we can change the weapon the `Samurai` uses without having to modify its implementation, the `Samurai` class could be in a separate assembly from `Sword`, in fact, we can create new weapons without needing the source code of the `Samurai` class!_
 
-### Mighty conclusion
+### TLDR
 
-As you can see DI is really a simple concept and it will bring several advantages. First of all it allows the removal of hard-coded dependencies and changing them easily. This achievement represents loosely coupled classes. What this means is that your classes will have less knowledge about their dependencies. This makes our systems more flexible and maintainable. We also care about code quality and DI will help us with unit testing, for example. There are a few techniques to deal and apply it, but let's save that for other posts.
+DI is a simple concept, and using it brings several advantages. It allows the removal of hard-coded dependencies and easily change them. This achievement represents loosely coupled classes, assuring they will have less knowledge about their dependencies. At the same time, makes our systems more flexible and maintainable. This concept will also help us with unit testing, for example.
 
 Note: Yes, I like Jimi Hendrix.
