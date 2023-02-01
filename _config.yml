@@ -1,11 +1,10 @@
 # Site settings
-title:       antao.tostring()
+title:       kid-cavaquinho.tostring()
 email:       'joao[dot]antao[at]gmail[dot]com'
 description: ''
 baseurl:     '' 
-url:         'https://antao.github.io/'
-twitter:     'https://twitter.com/antao/'
-github:      'https://github.com/antao/'
+url:         'https://kid-cavaquinho.github.io/'
+github:      'https://github.com/kid-cavaquinho/'
 
 markdown:  kramdown
 permalink: pretty
