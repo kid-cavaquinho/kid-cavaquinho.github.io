@@ -6,7 +6,9 @@ summary:    "{ x2 | x ∈ ℕ }"
 categories: programming
 ---
 
-Initially introduced by Barry Warsaw on [PEP-202](https://www.python.org/dev/peps/pep-0202/), comprehensions became part of the Python language in version 2.0 almost twenty years ago. This language feature enables a beautiful and convienient way to work with iterables.
+Initially introduced by Barry Warsaw on [PEP-202](https://www.python.org/dev/peps/pep-0202/), comprehensions became part
+of the Python language in version 2.0 almost twenty years ago. This language feature enables a beautiful and convenient
+way to work with iterables.
 By using comprehensions the code is written in a more declarative and concise way.
 I think of it as an elegant way of Python's for implementing a well-known Mathematics notation: **{ x2 | x ∈ ℕ }**.
 
@@ -20,7 +22,8 @@ print(squares)
 
 ### List comprehensions
 
-The same functionality can be re-written using list comprehensions with the following syntax: [ **expression** for **element** in **iterable** ]
+The same functionality can be re-written using list comprehensions with the following syntax: [ **expression** for *
+*element** in **iterable** ]
 {% highlight python lineanchors %}
 squares = [x ** 2 for x in range(10)]
 print(squares)
@@ -28,7 +31,8 @@ print(squares)
 
 #### Using conditionals statements with list comprehensions
 
-The initial presented code is now modified below using a conditional statement that only adds the even square numbers to the list.
+The initial presented code is now modified below using a conditional statement that only adds the even square numbers to
+the list.
 {% highlight python lineanchors %}
 squares = []
 for x in range(10):
@@ -45,7 +49,9 @@ print(squares)
 
 ### Dictionary comprehensions
 
-In [PEP-274](https://www.python.org/dev/peps/pep-0274/) a propose for a similar syntatical extension for dictionary objects instead of lists is introduced. This is one is called "Dictionary Comprehension" and you can see an example below using a conditional statement.
+In [PEP-274](https://www.python.org/dev/peps/pep-0274/) a proposal for similar syntactical extension for dictionary
+objects instead of lists is introduced. This one is called "Dictionary Comprehension". And you can see an example
+below using a conditional statement.
 
 {% highlight python lineanchors %}
 squares = {x: x**2 for x in range(10) if (x % 2 == 0)}
@@ -54,7 +60,8 @@ print(squares)
 
 ### Set comprehensions
 
-A set is an unordered and mutable collection of items. All it's elements are unique (no duplicates) and immutable. Set comprehensions are created in much the same way as dictionary comprehensions.
+A set is an unordered and mutable collection of items. All its elements are unique (no duplicates) and immutable. Set
+comprehensions are created the same way as dictionary comprehensions.
 
 {% highlight python lineanchors %}
 numbers = [0, 1, 2, 2, 3, 4, 5, 5, 6, 7, 8, 8, 9, 9, 9]
@@ -64,7 +71,9 @@ print(squares)
 
 ### Generator comprehensions
 
-They are similar to the examples above, the main difference is that they do not allocate memory for the whole expected type but generate one item at a time. This results in a better memory usage efficiency. See also [PEP-289](https://www.python.org/dev/peps/pep-0289/).
+They are similar to the examples above. The main difference is that they do not allocate memory for the expected type
+but generate one item at a time. This results in better memory usage efficiency. See
+also [PEP-289](https://www.python.org/dev/peps/pep-0289/).
 
 {% highlight python lineanchors %}
 squares = (x**2 for x in range(10) if x % 2 == 0)
@@ -75,4 +84,7 @@ for s in squares:
 
 ### TLDR
 
-Comprehensions are in my humble opinion an awesome feature of Python and they are supported in both versions 2.x and 3.x. As you can see in the examples described they provide a clean and concise way to avoid nested loops, lambda functions or even [filter()](https://docs.python.org/3.7/library/functions.html#filter) or/and [map](https://docs.python.org/3.7/library/functions.html#map) functions.
+Comprehensions are in my humble opinion an awesome feature of Python, supported in both versions 2.x. and 3.x. As you
+can see, they provide a clean and concise way to avoid nested loops, lambda
+functions or even [filter()](https://docs.python.org/3.7/library/functions.html#filter)
+or/and [map](https://docs.python.org/3.7/library/functions.html#map) functions.
